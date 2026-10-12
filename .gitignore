@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Окружения и секреты
+.venv/
+venv/
+.env
+
+# Базы данных, создаваемые при запуске
+*.db
+*.sqlite3
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
